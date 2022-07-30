@@ -1,0 +1,13 @@
+package Collections;
+
+import java.util.TreeSet;
+
+public class StringBufferMain {
+
+	public static void main(String[] args) {
+		Set<StringBuffer> s = new TreeSet<>();
+		
+
+	}
+
+}

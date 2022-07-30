@@ -1,0 +1,11 @@
+package Java8Features;
+
+public class FunctionalInterface {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+//Functional Interface -contains one and only one abstract method(functional method).
+//Examples of Functional interface ->Runnable->run method which is abstract

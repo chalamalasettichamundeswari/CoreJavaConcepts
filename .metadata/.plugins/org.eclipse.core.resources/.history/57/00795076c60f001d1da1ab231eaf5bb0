@@ -1,0 +1,15 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class IteratorExample {
+
+	public static void main(String[] args) {
+      ArrayList<Integer> li = new ArrayList<>();
+      li.add(7);
+      li.add(7);
+      li.add(7);
+      System.out.println(li);
+	}
+
+}

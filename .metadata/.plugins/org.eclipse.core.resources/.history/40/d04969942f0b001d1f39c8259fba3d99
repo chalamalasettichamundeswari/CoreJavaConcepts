@@ -1,0 +1,18 @@
+package Streams;
+
+import java.io.*;
+
+public class FileOutputStreamExample {
+   
+	public static void main(String[] args) throws IOException {
+       FileInputStream fis = new FileInputStream(new File("/Users/chamundeswari/Documents/projects/CoreJavaConcepts/src/sample.png"));
+       FileInputStream fos;
+       int data;
+       while((data = fis.read())!=-1) {
+    	   fos.write(data);
+       }
+       fis.close();
+       fos.close();
+	}
+
+}

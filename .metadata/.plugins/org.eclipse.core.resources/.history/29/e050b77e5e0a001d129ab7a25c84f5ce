@@ -1,0 +1,13 @@
+package InnerClasses;
+
+public class NonStaticInnerClasses {
+
+	class Inner{
+		
+	}
+	
+	public static void main(String[] args) {
+     
+	}
+
+}

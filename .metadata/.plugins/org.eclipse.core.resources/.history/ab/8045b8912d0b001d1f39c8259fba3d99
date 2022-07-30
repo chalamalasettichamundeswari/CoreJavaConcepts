@@ -1,0 +1,26 @@
+package Streams;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class StreamExample {
+
+	public static void main(String[] args) throws FileNotFoundException {
+       FileInputStream fis = new FileInputStream(new File("/Users/chamundeswari/Documents/projects/CoreJavaConcepts/src/sample.txt"));
+       int i;
+       while(i=fis.read()!=-1) {
+    	   
+       }
+	}
+
+}
+//Streams is a Application/Program which we can read data from a input source or write data to a output source.
+//Types:Byte,Character,BufferedStreams,ObjectStreams
+//ByteStreams-read write one byte at a time.
+//CharacterStreams-uses unicode read and write one character at a time.
+//BufferedStreams-for reading more data
+//objectStreams-for reading and writing objects to a file system or to a network called serialization.
+//Streams there in java.io package
+//ByteStreams - Classes are InputStream,OutputStream,FileInputStream,FileOutputStream
+//CharacterStreams -Classes are FileReader,FileWriter

@@ -1,0 +1,9 @@
+package Java8Features;
+
+public class StringLowerCaseStreams {
+
+	public static void main(String[] args) {
+       String str="CHAMUNDESWARI"
+	}
+
+}

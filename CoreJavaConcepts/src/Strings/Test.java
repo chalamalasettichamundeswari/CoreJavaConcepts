@@ -1,0 +1,17 @@
+package Strings;
+
+public class Test {
+
+	public static void main(String[] args) {
+       Product p = new Product(1,"soap");
+       System.out.println(p.id+" - "+p.name);
+       String s = "12";
+       Integer i = new Integer(89);
+       System.out.println(s);
+       System.out.println(i);
+	}
+
+}
+
+//Advantage of string ->performance(reusuability
+//thread safe(if multiple threads accessing the same strings,if one thread manipulates the value while the other thread is still reading it,we are still okay because once the new thread changes the value it will point the different memory location the other thread still using the old value on the pool))

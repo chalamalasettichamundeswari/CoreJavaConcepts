@@ -1,0 +1,18 @@
+package Collections;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class EmployeeComparableMain {
+
+	public static void main(String[] args) {
+		Set<EmployeeComparable> s2 = new TreeSet<>();
+		s2.add(new EmployeeComparable(1, "chamu"));
+		s2.add(new EmployeeComparable(2, "cham"));
+		s2.add(new EmployeeComparable(3, "cha"));
+		for(EmployeeComparable emp:s2) {
+			
+		}
+	}
+
+}

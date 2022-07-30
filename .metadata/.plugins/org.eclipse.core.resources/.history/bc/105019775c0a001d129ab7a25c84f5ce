@@ -1,0 +1,16 @@
+package InnerClasses;
+
+public class StaticInnerClasses {
+	
+	static void f1() {
+	  System.out.println("Outer static method");
+	}
+
+	static class Inner{
+		
+	}
+	public static void main(String[] args) {
+      
+	}
+
+}

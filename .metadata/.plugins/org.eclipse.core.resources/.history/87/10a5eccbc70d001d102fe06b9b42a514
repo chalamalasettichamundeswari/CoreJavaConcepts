@@ -1,0 +1,20 @@
+Components of a JVM:
+Class Loader Subsystem->responsible for loading the java .class into the memory.
+Once loaded,we need multiple memory areas starting with method area,heap area,stack area,PC Registers and Native Method 
+Execution Engine
+JNI->If we want to invoke methods in other programming languages such as c and c++.
+Native Method Libraries
+
+Class loader System  ->JVM first checks if the class is already in the method area.if not it will ask class loader system to load the class.
+
+Class loader System ->Application Class loader
+The class loader system will ask the application class loader to load the class.Application class loader will delegates the request to the extension class loader,which
+in turn requests the bootstrap class loader will check the bootstrap classpath which is jre/lib/*.jar.If the class is there, it will load it.If not it will delegates
+the request to the extension class loader.extension class loader will then check if the class is under jre's ext jar files.If not it will delegates
+the request to the application class loader checks the application class path under it to check if the class is in there.If it finds it ,it will loads it.If not it will throw a NoClassDefFoundException
+ClassNotFoundException at runtime.
+ClassLoadingSubsystem contains 3 steps:
+Loading->.class file is loaded from the hard disk into the method area of the jvm.
+Linking -> 3 verification,preparation,resolution
+Initialization->static variables are assigned to their values.static blocks are executed.
+Method Area->Runtime constant pool.

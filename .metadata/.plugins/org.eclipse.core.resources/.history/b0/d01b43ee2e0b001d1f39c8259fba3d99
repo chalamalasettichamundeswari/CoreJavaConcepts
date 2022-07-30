@@ -1,0 +1,9 @@
+package Streams;
+
+public class FileOutputStreamExample {
+
+	public static void main(String[] args) {
+       FileInputSream fis = new FileinputStream(new File(/Users/chamundeswari/Documents/projects/CoreJavaConcepts/src/sample.png"));
+	}
+
+}

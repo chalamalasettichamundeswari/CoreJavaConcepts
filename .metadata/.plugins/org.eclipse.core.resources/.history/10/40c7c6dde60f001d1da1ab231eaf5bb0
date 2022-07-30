@@ -1,0 +1,22 @@
+package Collections;
+
+public class EmployeeComparable implements Comparable<EmployeeComparable> {
+   
+	int id;
+	String name;
+	
+	public EmployeeComparable(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
+	@Override
+	public int compareTo(EmployeeComparable o) {
+		 int id1=this.id;
+		 int id2=o.id;
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

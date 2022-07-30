@@ -1,0 +1,15 @@
+package Java8Features;
+
+public class SumMainClass implements Sum {
+
+	public static void main(String[] args) {
+      Sum obj =(a,b)->{return a+b};
+      obj.add(8, 7);
+	}
+
+	@Override
+	public void add(int a, int b) {
+      		
+	}
+
+}

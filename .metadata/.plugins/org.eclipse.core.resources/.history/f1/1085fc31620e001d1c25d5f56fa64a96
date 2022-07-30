@@ -1,0 +1,12 @@
+package Collections;
+
+public class LinkedListExample {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+//Linked List is an ordered collection that stores the elements in the form of nodes.
+//Each node has 3 fields :prev(points to the previous node),obj(stores the actual object),next(points to the next node.)

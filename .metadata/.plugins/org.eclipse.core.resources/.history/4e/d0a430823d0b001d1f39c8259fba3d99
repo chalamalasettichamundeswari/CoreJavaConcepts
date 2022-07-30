@@ -1,0 +1,26 @@
+package Streams;
+
+import java.io.*;
+
+public class SerializationDeserializationExample implements Serializable {
+	int id;
+	String name;
+    transient int ssn;
+    SerializationDeserializationExample(int id,String name,int ssn){
+    	this.id=id;
+    	this.name=name;
+    	this.ssn=ssn;
+    }
+	public static void main(String[] args) throws IOException {
+	//serialization
+     FileOutputStream fos = new FileOutputStream("/Users/chamundeswari/Documents/projects/CoreJavaConcepts/src/emp.ser");
+     ObjectOutputStream oos = new ObjectOutputStream(fos);
+     SerializationDeserializationExample obj = new SerializationDeserializationExample(1,"chamundeswari",7878);
+     oos.writeObject(obj);
+     System.out.println("Employee Object Serialized");
+     fos.close();
+ 	 oos.close();
+	}
+	
+
+}

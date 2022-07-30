@@ -1,0 +1,16 @@
+Functional programming 
+->contains Lambda Expression,Functional interfaces(use this to express lambda expressions or to create lambda expressions)
+->Default Methods in Interfaces
+->Functions,Stream API
+->Main goal of lambda expressions is to introduce the benefits of functional programming to java
+->A lambda is an anonymous function or closures  in java.A function doesnot have name,returntype and access modifiers
+general function:
+public void display(){
+sop("chamu")
+}
+anonymous function:
+()->sop("chamu")
+
+public void mutliply(int a,int b){
+sop(a*b)
+}

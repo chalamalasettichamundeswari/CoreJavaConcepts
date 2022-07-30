@@ -1,0 +1,16 @@
+package Strings;
+
+public class ImmutableValuesExample {
+
+	int id;
+	String name;
+	ImmutableValuesExample(int id,String name){
+		this.id=id;
+		this.name=name;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

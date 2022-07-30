@@ -1,0 +1,21 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class IteratorExample {
+
+	public static void main(String[] args) {
+      ArrayList<Integer> li = new ArrayList<>();
+      li.add(7);
+      li.add(7);
+      li.add(7);
+      
+      Iterator<Integer> itr = li.iterator();
+      while(itr.hasNext()) {
+    	  System.out.println(itr.next());
+      }
+      
+	}
+
+}

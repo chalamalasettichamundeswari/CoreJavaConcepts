@@ -1,0 +1,11 @@
+package Collections;
+
+public class LinkedListExample {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+//Linked List is an ordered collection that stores the elements in the form of nodes.

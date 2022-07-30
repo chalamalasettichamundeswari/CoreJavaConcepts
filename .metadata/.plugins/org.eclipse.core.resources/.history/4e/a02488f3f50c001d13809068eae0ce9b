@@ -1,0 +1,13 @@
+package Java8Features;
+
+public class Predicates {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+//Predicate is a function with a single argument and it returns a boolean value
+//In java 1.8 use a predicate interface (functional interface) conatins only one abstract method.
+//interface Predicate<T>{public boolean test(T t);}

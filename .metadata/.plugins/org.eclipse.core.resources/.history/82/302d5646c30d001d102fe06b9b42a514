@@ -1,0 +1,9 @@
+Components of a JVM:
+Class Loader Subsystem->responsible for loading the java .class into the memory.
+Once loaded,we need multiple memory areas starting with method area,heap area,stack area,PC Registers and Native Method 
+Execution Engine
+JNI->If we want to invoke methods in other programming languages such as c and c++.
+Native Method Libraries
+
+Class laoder System ->Application Classloader
+

@@ -1,0 +1,19 @@
+package Streams;
+
+import java.io.Serializable;
+
+public class SerializationExample implements Serializable {
+	int id;
+	String name;
+    transient int ssn;
+    SerializationExample(int id,String name,int ssn){
+    	this.id=id;
+    	this.name=name;
+    	this.ssn=ssn;
+    }
+	public static void main(String[] args) {
+     FileOutputStream fos = new FileOutputStream("");
+     ObjectOutputStream fos = new ObjectOutputStream("");
+	}
+
+}

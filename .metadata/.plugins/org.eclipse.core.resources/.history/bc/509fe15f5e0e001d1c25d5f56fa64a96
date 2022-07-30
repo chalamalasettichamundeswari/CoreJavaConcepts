@@ -1,0 +1,21 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+
+		ArrayList list = new ArrayList<Integer>();
+		list.add(new Integer(20));
+		list.add(10);
+		list.add("Hello");
+		list.add(45,80);
+		System.out.println(list);
+	}
+
+}
+//ArrayList uses an array to store the objects.Access is very fast because it can internally use the array index to locate the object.
+//At the same time,insertions and deletions are very slow,it will reshuffle the entire array
+//Initial capacity is 1
+//Use ArrayList,If we want to do a lot of read operations

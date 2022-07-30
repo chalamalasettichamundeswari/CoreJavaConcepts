@@ -1,0 +1,16 @@
+package InnerClasses;
+
+public class LocalInnerClass {
+
+	void f1() {
+		class LocalInner() {
+			void f2() {
+				
+			}
+		}
+	}
+	public static void main(String[] args) {
+      
+	}
+
+}

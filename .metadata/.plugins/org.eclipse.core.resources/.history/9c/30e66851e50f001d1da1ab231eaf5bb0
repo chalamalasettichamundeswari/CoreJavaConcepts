@@ -1,0 +1,20 @@
+package Collections;
+
+public class Employee {
+	private int id;
+	private String name;
+
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
+	public int compareTo(Employee e) {
+		int id1 = thjs.id;
+		int id2 = e.id;
+		return id;
+		
+	}
+
+}

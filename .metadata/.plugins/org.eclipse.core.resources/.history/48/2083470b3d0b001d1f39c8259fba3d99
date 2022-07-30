@@ -1,0 +1,22 @@
+package Streams;
+
+import java.io.*;
+
+public class SerializationExample implements Serializable {
+	int id;
+	String name;
+    transient int ssn;
+    SerializationExample(int id,String name,int ssn){
+    	this.id=id;
+    	this.name=name;
+    	this.ssn=ssn;
+    }
+	public static void main(String[] args) throws IOException {
+     FileOutputStream fos = new FileOutputStream("/Users/chamundeswari/Documents/projects/CoreJavaConcepts/src/emp.ser");
+     ObjectOutputStream oos = new ObjectOutputStream(fos);
+     fos.close();
+ 	 oos.close();
+	}
+	
+
+}

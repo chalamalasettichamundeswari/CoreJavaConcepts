@@ -1,0 +1,13 @@
+package Streams;
+
+import java.io.Serializable;
+
+public class SerializationExample implements Serializable {
+	int id;
+	String name;
+
+	public static void main(String[] args) {
+
+	}
+
+}

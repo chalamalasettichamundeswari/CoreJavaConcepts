@@ -1,0 +1,6 @@
+package Java8Features;
+
+public interface FunctionalInterface {
+   void myMethod();
+   void myMethod(1);
+}

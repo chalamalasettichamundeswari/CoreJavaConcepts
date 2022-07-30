@@ -1,0 +1,9 @@
+package Java8Features;
+
+public class DefaultMethodMain {
+
+	public static void main(String[] args) {
+        
+	}
+
+}

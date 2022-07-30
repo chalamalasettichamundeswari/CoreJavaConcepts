@@ -1,0 +1,15 @@
+package Collections;
+
+import java.util.Random;
+import java.util*;
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+       Random obj = new Random();
+       List<integer> list = new ArrayList<>();
+     //  int x = obj.nextInt();
+     //  int x = obj.nextInt(10);//specify the limit
+     //  System.out.println(x);
+	}
+
+}

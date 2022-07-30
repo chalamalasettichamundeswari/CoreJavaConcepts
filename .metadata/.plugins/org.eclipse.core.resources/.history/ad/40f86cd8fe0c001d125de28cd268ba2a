@@ -1,0 +1,15 @@
+package Java8Features;
+
+import java.util.*;
+
+public class StringLowerCaseStreams {
+
+	public static void main(String[] args) {
+       List<String> li = new ArrayList<String>();
+       li.add("WORLD");
+       li.add("HELLO");
+       li.add("HEY");
+       
+	}
+
+}

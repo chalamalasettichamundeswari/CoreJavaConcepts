@@ -1,0 +1,11 @@
+package Java8Features;
+
+import Collections.ArrayList;
+
+public class EvenNumbersUsingStreams {
+
+	public static void main(String[] args) {
+     List<Integer> li = new ArrayList<>();
+	}
+
+}

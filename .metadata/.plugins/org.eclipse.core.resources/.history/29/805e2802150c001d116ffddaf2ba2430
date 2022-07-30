@@ -1,0 +1,10 @@
+package Enums;
+
+public class EnumExample {
+
+	public static void main(String[] args) {
+     
+	}
+
+}
+//If we want to represent a group of named constants in our application,then we use enums

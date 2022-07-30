@@ -1,0 +1,26 @@
+Collections is a class contain only static methods
+Collection is an interface contain static,default,abstract methods
+java.util.Collection ->Interfaces are List(Allows duplicate objects),Set(Doesn't Allow duplicate objects),Queue(FIFO)
+Interface List ->classes are ArrayList,LinkedList,vector
+Interface Set->class is HashSet(subclass is LinkedHashSet),Interface is SortedSet(subclass is TreeSet)
+Interface Queue->sub class is priority queue
+
+Collections -> A map interface is implemented by hashmap(subclass is linkedhashmap).sortedmap(interface) subclass is treemap
+
+Comparable and Comparator Interfaces
+
+when we add our objects to collections such as TreeSet and TreeMap which sort them we need to provide the natural sorting order so that the sorting will happen
+Our class should implement the Comparable Interface(java.lang) or provide the implementation or override the compareTo method and provide the implementation for it.
+This method is invoked by one object and another object is passed it as parameter
+-ve value if obj1 has to come before obj2
++ve value if obj1 has to come after obj2
+0 if both obj1 and obj2 are same
+If we want to change the sorting order at a point later on we use Comparator Interface(java.lang).Here implement the compare methods
+-ve value if obj1 has to come before obj2
++ve value if obj1 has to come after obj2
+0 if both obj1 and obj2 are same
+
+Inbuilt classes such as String and all the wrapper classes such as Integer,Float etc already implement the compareTo method.whereas StringBuffer doesnot.
+
+Map is an interface of its own.It doesnot implement the collection interface.
+Map is implemented by classes like HashMap,SortedMap

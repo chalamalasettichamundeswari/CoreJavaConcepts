@@ -1,0 +1,10 @@
+package InnerClasses;
+
+public class StaticInnerClasses {
+
+	
+	public static void main(String[] args) {
+      
+	}
+
+}

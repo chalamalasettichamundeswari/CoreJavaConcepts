@@ -1,0 +1,12 @@
+package Java8Features;
+
+public class FunctionExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+//Functions are similar to predicates except that they can return any type of result.
+//contains one method called apply takes any types of parameters and return any type.
+//interface Function(T,R){R apply(T t);}

@@ -1,0 +1,27 @@
+package Java8Features;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class EvenNumbersUsingStreams {
+
+	public static void main(String[] args) {
+     List<Integer> li = new ArrayList<>();
+     for(int i=0;i<=10;i++) {
+    	 li.add(i);
+     }
+     System.out.println(li);
+    // List<Integer> li1 = new ArrayList<>();
+//     for(Integer i : li) {
+// 		if(i%2==0) {
+// 			li1.add(i);
+// 		}
+// 	}
+     List<Integer> li1 = li.stream().filter(i->i%2==0).collect(Collectors.toList());
+     System.out.println(li1);
+     //count the no of even numbers
+     long count  = li.stream().filter(i->i%2==0).count();
+     System.out.println(count);
+	}
+	
+}

@@ -1,0 +1,17 @@
+package Enums;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Databases db = Databases.MYSQL;
+		System.out.println(db);
+		Databases[] types = Databases.values();
+		for(types type : types) {
+			System.out.println(type);
+		}
+		
+	}
+
+}
+
+//By default toString is written to override the string

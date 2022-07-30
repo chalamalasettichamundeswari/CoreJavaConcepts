@@ -1,0 +1,10 @@
+Collections is a class contain only static methods
+Collection is an interface contain static,default,abstract methods
+java.util.Collection ->Interfaces are List(Allows duplicate objects),Set(Doesn't Allow duplicate objects),Queue(FIFO)
+Interface List ->classes are ArrayList,LinkedList,vector
+Interface Set->class is HashSet(subclass is LinkedHashSet),Interface is SortedSet(subclass is TreeSet)
+Interface Queue->sub class is priority queue
+
+Collections -> A map interface is implemented by hashmap(subclass is linkedhashmap).sortedmap(interface) subclass is treemap
+
+Com

@@ -1,0 +1,18 @@
+package Streams;
+
+import java.io.Serializable;
+
+public class SerializationExample implements Serializable {
+	int id;
+	String name;
+    int ssn;
+    SerializationExample(int id,String name,int ssn){
+    	this.id=id;
+    	String name=name;
+    	this.ssn=ssn;
+    }
+	public static void main(String[] args) {
+
+	}
+
+}

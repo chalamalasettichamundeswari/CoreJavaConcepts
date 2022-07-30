@@ -1,0 +1,10 @@
+package Strings;
+
+public class StringPoolDemo {
+
+	public static void main(String[] args) {
+     Product prod = new Product("chamu");
+     
+	}
+
+}

@@ -1,0 +1,10 @@
+package Streams;
+
+public class StrringTokenizerExample {
+
+	public static void main(String[] args) {
+      String s= "chamu";
+      StringTokenizer st = new StringTokenizer(s);
+	}
+
+}

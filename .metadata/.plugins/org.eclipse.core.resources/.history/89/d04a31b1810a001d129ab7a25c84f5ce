@@ -1,0 +1,11 @@
+package Strings;
+
+public class StringHandlingExample {
+
+	public static void main(String[] args) {
+      String s1="chamu";
+      String s2=new String("setti");
+      
+	}
+
+}

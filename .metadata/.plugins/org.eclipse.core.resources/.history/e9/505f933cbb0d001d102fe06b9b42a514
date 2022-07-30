@@ -1,0 +1,3 @@
+Components of a JVM:
+1.Class Loader Subsystem->responsible for loading the java .class into the memory.
+2.

@@ -1,0 +1,20 @@
+
+public class GarbageCollectionExample {
+	int objId;
+	GarbageCollectionExample(int objId){
+		this.objId =objId;
+		System.out.println(this" Created");
+	}
+
+	public static void main(String[] args) {
+      new GarbageCollectionExample();
+      new GarbageCollectionExample();
+	}
+	@Override
+	protected void finalize(){
+		System.out.println(this+" Finalized");
+	}
+
+}
+
+//GarbageCollector runs only when is no memory,not enough memory space

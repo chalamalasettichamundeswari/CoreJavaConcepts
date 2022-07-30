@@ -1,0 +1,16 @@
+package InnerClasses;
+
+public class NonStaticInnerClasses {
+
+	class Inner{
+		void f1() {
+			System.out.println("Non static Inner class Non static method");
+		}
+	}
+	
+	public static void main(String[] args) {
+		NonStaticInnerClasses.Inner obj = new NonStaticInnerClasses.Inner();
+		
+	}
+
+}

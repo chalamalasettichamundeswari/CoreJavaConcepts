@@ -1,0 +1,34 @@
+package InnerClasses;
+
+public class NonStaticInnerClasses {
+   
+	private static int a =80;
+	private int b;
+	
+	NonStaticInnerClasses(int b){
+		this.b=b;
+	}
+	
+	void f2() {
+		System.out.println("Outer classes Non static method");
+	}
+	
+	class Inner{
+		void f1() {
+			System.out.println("Non static Inner class Non static method");
+		}
+		
+		private void f3() {
+			System.out.println(NonStaticInnerClasses.a);
+		}
+	}
+	
+	public static void main(String[] args) {
+		NonStaticInnerClasses outer = new NonStaticInnerClasses(65);
+		outer.f2();
+		NonStaticInnerClasses.Inner inner = outer.new Inner();
+		inner.f1();
+		
+	}
+
+}

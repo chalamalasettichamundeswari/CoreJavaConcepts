@@ -1,0 +1,14 @@
+package InnerClasses;
+
+public class LocalInnerClass {
+
+	void f1() {
+		class LocalInner() {
+			
+		}
+	}
+	public static void main(String[] args) {
+      
+	}
+
+}

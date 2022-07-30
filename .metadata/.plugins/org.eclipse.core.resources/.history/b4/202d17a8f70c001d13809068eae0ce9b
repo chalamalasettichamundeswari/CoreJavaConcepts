@@ -1,0 +1,12 @@
+package Java8Features;
+
+public class StreamsExample {
+
+	public static void main(String[] args) {
+     
+	}
+
+}
+//Easy way to process the data or objects inside a collection.
+//Not like java.io.streams for reading and writing files.
+//It is an interface in java.util.stream.Stream interface.

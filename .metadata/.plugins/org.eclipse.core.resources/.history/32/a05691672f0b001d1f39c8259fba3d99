@@ -1,0 +1,16 @@
+package Streams;
+
+import java.io.*;
+
+public class FileOutputStreamExample {
+    int data;
+	public static void main(String[] args) throws FileNotFoundException {
+       FileInputStream fis = new FileInputStream(new File("/Users/chamundeswari/Documents/projects/CoreJavaConcepts/src/sample.png"));
+       FileInputStream fos;
+       while((data = fis.read()!=-1)) {
+    	   
+       }
+       
+	}
+
+}

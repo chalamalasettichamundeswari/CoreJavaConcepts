@@ -1,0 +1,14 @@
+package Collections;
+
+public class EmployeeComparable implements Comparable<Employee> {
+   
+	int id;
+	String name;
+	
+	@Override
+	public int compareTo(Employee o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

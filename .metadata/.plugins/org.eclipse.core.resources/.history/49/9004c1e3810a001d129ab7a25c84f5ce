@@ -1,0 +1,15 @@
+package Strings;
+
+public class StringHandlingExample {
+
+	public static void main(String[] args) {
+      String s1="chamu";
+      String s2=new String("setti");
+      char c[]= {'a','e','i','o','u'};
+      String s3 = new String(c);
+      byte b[]= {65,89,90,78};
+      String s4 = new String(b);
+      
+	}
+
+}
